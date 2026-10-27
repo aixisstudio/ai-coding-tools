@@ -28,4 +28,12 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 
 ## 🤖 Full-auto dev agents
 | Tool | Note |
-|---|
+|---|---|
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
+| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
+| [Bolt](https://bolt.new/) | Prompt → deployed app |
+| [v0](https://v0.dev/) | Vercel's UI generator |
+
+## 📏 Evals
+- **SWE-bench** — the standard real-repo benchmark
