@@ -43,6 +43,32 @@ _詳細なコンテンツ（リスト・リンク・説明）は保守のため�
 - **SWE-bench** — the standard real-repo benchmark
 - **Aider leaderboard** — code-edit quality per model
 
+## 🆚 Head-to-head
+
+| Tool | Strength | Weakness |
+|---|---|---|
+| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
+| Copilot | Ecosystem, enterprise | Slower to adopt new models |
+| Claude Code | Agentic, terminal-native | Burn tokens fast |
+| Aider | Open, git-aware | UX less polished |
+| Windsurf | Agentic flows | Smaller community |
+
+## 🧩 Open-source pieces
+
+| Tool | What |
+|---|---|
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
+| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
+| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
+| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+
+## 🔮 What's next
+
+- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
+- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
+- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+
 ---
 ## 貢献
 
