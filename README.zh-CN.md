@@ -4,70 +4,68 @@
 
 AI 编程工具对比 — 助手、编辑器、智能体
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
-
-## 🖥️ AI Editors & IDEs
-| Tool | Model | Note |
+□ QQ AI 编辑器和IDEs
+工具 型号 注解
 |---|---|---|
-| [Cursor](https://cursor.com/) | Multi | The current leader — agent mode, codebase-aware |
-| [Windsurf](https://windsurf.com/) | Multi | Cascade agentic flows |
-| [Zed](https://zed.dev/) | Multi | Fast native editor with AI |
-| [VS Code + Copilot](https://code.visualstudio.com/) | GPT | The classic combo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Multi | AI Assistant in IntelliJ & co |
+[导 (https://cursor.com/) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 现任领导者 — 代理模式, 代码库意识 QQ
+[Windsurf](https://windsurf.com/) + 多元 + 串联 代理流 + +
+QQ [Zed] (https://zed.dev/) 与AI QQ的Multi QQ快速本土编辑器
+[VS代码+副驾驶](https://code.visualstudio.com/) QQGPT QQ 经典组合
+–[JetBrains AI](https://www.jetbrains.com/ai/) – 在IntelliJ & co 的多功能AI助手 – .
 
-## ⌨️ Terminal & CLI agents
-| Tool | Note |
+# # # # # 终端和CLI 代理
+* * * 工具 * * 注 * *
 |---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Terminal-native, edits real repos |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent |
-| [Aider](https://github.com/Aider-AI/aider) | OSS, git-native, works with any LLM |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source CLI |
+[Claude Code](https://claude.com/product/claude-code) 终极本土版,编辑真实重现版 Q.
+[Codex CLI] (https://github.com/openai/codex) | OpenAI的终端代理QQ
+[Aider] (https://github.com/Aider-AI/aider) OSS, git-native, 与任何 LLM 合作 QQ
+[Gemini CLI](https://github.com/google-gemini/gemini-cli) Google开源CLI |.
 
-## 🧩 IDE plugins (open source)
-| Tool | Note |
+^ QQ IDE 插件( 开源)
+* * * 工具 * * 注 * *
 |---|---|
-| [Continue](https://github.com/continuedev/continue) | OSS copilot, any model incl. local |
-| [Cody](https://github.com/sourcegraph/cody) | Sourcegraph's assistant |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+[续](https://github.com/continuedev/continue) OSS副驾驶,任何型号都包括在内. 当地
+[Cody](https://github.com/sourcegraph/cody) |源图的助手|.
+[塔比] (https://github.com/TabbyML/tabby) |自备副驾驶 |自备.
 
-## 🤖 Full-auto dev agents
-| Tool | Note |
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
+* * * 工具 * * 注 * *
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
-| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
-| [Bolt](https://bolt.new/) | Prompt → deployed app |
-| [v0](https://v0.dev/) | Vercel's UI generator |
+|(OpenHands)(https://github.com/All-Hands-AI/OpenHands) | utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous utonomous |
+[Devin] (https://devin.ai/) 认知的自主 SWE |
+(https://github.com/SWE-agent/SWE-agent) 研究级问题
+(https://bolt.new/) 快速 部署 app QQ
+[v0](https://v0.dev/) Vercel的UI生成器 |
 
-## 📏 Evals
-- **SWE-bench** — the standard real-repo benchmark
-- **Aider leaderboard** — code-edit quality per model
+□□□□爱瓦尔斯
+- **SWE-bench**——标准实际回收基准
+- ** Aider 领导板**——每个模型的代码编辑质量
 
-## 🆚 Head-to-head
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
 
-| Tool | Strength | Weakness |
+* 工具 * 力量 * 弱点 *
 |---|---|---|
-| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
-| Copilot | Ecosystem, enterprise | Slower to adopt new models |
-| Claude Code | Agentic, terminal-native | Burn tokens fast |
-| Aider | Open, git-aware | UX less polished |
-| Windsurf | Agentic flows | Smaller community |
+===============================================================================================================================================================================================================================================================
++++++++ 生态系统,企业 +++ 较慢采用新模式 ++++
+Claude Code 代理 终极本土 快速燃烧 快速燃烧
+打开、发觉UX减光
+更小的社区
 
-## 🧩 Open-source pieces
+□□□□□□ 开源作品
 
-| Tool | What |
+* 工具 * * * 什麽?
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
-| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
-| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
-| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+[打开手 (https://github.com/All-Hands-AI/OpenHands) OSS代理 SWE平台 腾讯网.
+[塔比] (https://github.com/TabbyML/tabby) |自备副驾驶 |自备.
+[继续] (https://github.com/continuedev/continue) OSS IDE 自动驾驶 |
+[Cody](https://sourcegraph.com/cody) |源图的助手|.
+[Mentat] (https://github.com/AbanteAI/mentat) | CLI助理 |.
 
-## 🔮 What's next
+# # 接下来是什么 # # What's next #
 
-- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
-- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
-- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+- **Spec驱动dev**:写意,而不是代码——基罗/副驾驶Spec模式领先
+- ** repo-scale 代理**:全码基重构代理(SWE-bench推70%+)
+- ** 本地编码模式**: Quen-Coder + Deep Seek-Coder 正在接近边界
 
 ---
 ## 贡献
