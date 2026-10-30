@@ -4,70 +4,68 @@
 
 Asistentes de código IA comparados
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
-## 🖥️ AI Editors & IDEs
-| Tool | Model | Note |
+IDEs
+Silencioso Herramienta Silencioso Modelo Silencioso
 |---|---|---|
-| [Cursor](https://cursor.com/) | Multi | The current leader — agent mode, codebase-aware |
-| [Windsurf](https://windsurf.com/) | Multi | Cascade agentic flows |
-| [Zed](https://zed.dev/) | Multi | Fast native editor with AI |
-| [VS Code + Copilot](https://code.visualstudio.com/) | GPT | The classic combo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Multi | AI Assistant in IntelliJ & co |
+[Cursor] (https://cursor.com/) El líder actual — modo agente, codebase-aware Silencio
+Silencio [Windsurf] (https://windsurf.com/)
+Silencio [Zed] (https://zed.dev/) Silencio Multi Silencio Redactor nativo rápido con inteligencia artificial
+confidencialidad [VS Code + Copilot] (https://code.visualstudio.com/) El combo clásico
+Silencio [JetBrains AI] (https://www.jetbrains.com/ai/) Silencio Multi TENIDO AI Assistant in IntelliJ &amp; co TEN
 
-## ⌨️ Terminal & CLI agents
-| Tool | Note |
+## ⌨ف Terminal &gt; Agentes CLI
+← Herramienta Silenciosa
 |---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Terminal-native, edits real repos |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent |
-| [Aider](https://github.com/Aider-AI/aider) | OSS, git-native, works with any LLM |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source CLI |
+Silencio [Código de la violación] (https://claude.com/product/claude-code) Silencio Terminal-native, edita repos real ←
+Silencio [Codex CLI] (https://github.com/openai/codex)
+Silencio [Aider] (https://github.com/Aider-AI/aider) Silencio OSS, git-native, trabaja con cualquier LLM
+Silencio [Gemini CLI] (https://github.com/google-gemini/gemini-cli)
 
-## 🧩 IDE plugins (open source)
-| Tool | Note |
+## 🧩 IDE plugins (fuente abierta)
+← Herramienta Silenciosa
 |---|---|
-| [Continue](https://github.com/continuedev/continue) | OSS copilot, any model incl. local |
-| [Cody](https://github.com/sourcegraph/cody) | Sourcegraph's assistant |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+(https://github.com/continuedev/continue) Silencio OSS copilot, cualquier modelo incl. local
+[Cody] (https://github.com/sourcegraph/cody)
+[Tabby] (https://github.com/TabbyML/tabby)
 
 ## 🤖 Full-auto dev agents
-| Tool | Note |
+← Herramienta Silenciosa
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
-| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
-| [Bolt](https://bolt.new/) | Prompt → deployed app |
-| [v0](https://v0.dev/) | Vercel's UI generator |
+Silencio [OpenHands] (https://github.com/All-Hands-AI/OpenHands)
+Silencio [Devin] (https://devin.ai/)
+Silencio [SWE-agent] (https://github.com/SWE-agent/SWE-agent)
+Silencio [Bolt](https://bolt.new/) Silencio Prompt → app desplegada Silencio
+[v0] (https://v0.dev/)
 
-## 📏 Evals
-- **SWE-bench** — the standard real-repo benchmark
-- **Aider leaderboard** — code-edit quality per model
+## Evals
+- **SWE-bench** - el parámetro estándar real-repo
+**Líder de ayudante** — calidad de código por modelo
 
 ## 🆚 Head-to-head
 
-| Tool | Strength | Weakness |
+← Herramienta Silencioso
 |---|---|---|
-| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
-| Copilot | Ecosystem, enterprise | Slower to adopt new models |
-| Claude Code | Agentic, terminal-native | Burn tokens fast |
-| Aider | Open, git-aware | UX less polished |
-| Windsurf | Agentic flows | Smaller community |
+Curso anterior Silencio Best inline UX, codebase context
+← Copilot Silencio Ecosistema, empresa Silencioso para adoptar nuevos modelos
+Silencio Código de Claude Silencio Agente, terminal-native tención Burn tokens rapido
+← Aider Silencio Abierto, git-aware Silencio UX menos pulido
+Silencio Windsurf Silencio Corrientes de agentes Silencio comunidad más pequeña
 
-## 🧩 Open-source pieces
+## 🧩 Piezas de código abierto
 
-| Tool | What |
+← Herramienta permanente ¿Qué pasa?
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
-| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
-| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
-| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+Silencio [OpenHands] (https://github.com/All-Hands-AI/OpenHands) Silencio OSS agenteic SWE plataforma
+[Tabby] (https://github.com/TabbyML/tabby)
+[Continua] (https://github.com/continuedev/continue)
+[Cody] (https://sourcegraph.com/cody)
+[Mentat] (https://github.com/AbanteAI/mentat)
 
 ## 🔮 What's next
 
-- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
-- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
-- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+*Dev*: intención de escribir, no código: Kiro/Copilot Modo de espectro
+- ** Agentes de repo-escala**: agentes de refactor de base entera (SWE-bench push 70%+)
+- ** Modelos de codificación local**: Qwen-Coder + DeepSeek-Coder se acercan a la frontera
 
 ---
 ## Contribuir
