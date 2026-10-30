@@ -4,70 +4,68 @@
 
 AI コーディングツール比較
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
-
-## 🖥️ AI Editors & IDEs
-| Tool | Model | Note |
+# # # 人工知能エディタ & IDEs
+| ツール | モデル | ノート |
 |---|---|---|
-| [Cursor](https://cursor.com/) | Multi | The current leader — agent mode, codebase-aware |
-| [Windsurf](https://windsurf.com/) | Multi | Cascade agentic flows |
-| [Zed](https://zed.dev/) | Multi | Fast native editor with AI |
-| [VS Code + Copilot](https://code.visualstudio.com/) | GPT | The classic combo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Multi | AI Assistant in IntelliJ & co |
+| 【講師】(https://cursor.com/) | マルチ | 現在のリーダー — エージェントモード、コードベースウェア |
+| 【ウインドサーフィン】(https://windsurf.com/) | マルチ | カスケード・エージェントの流れ |
+| [Zed](https://zed.dev/) | マルチ | 人工知能を用いた高速ネイティブエディタ |
+| 【VSコード+コピロット】(https://code.visualstudio.com/) | GPT | クラシックコンボ |
+| 【JetBrains AI】(https://www.jetbrains.com/ai/) | マルチ | インテルリJ&coのAIアシスタント |
 
-## ⌨️ Terminal & CLI agents
-| Tool | Note |
+## ◯ターミナル&CLIエージェント
+| ツール | ノート |
 |---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Terminal-native, edits real repos |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent |
-| [Aider](https://github.com/Aider-AI/aider) | OSS, git-native, works with any LLM |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source CLI |
+| 【ロードコード】(https://claude.com/product/claude-code) | ターミナルネイティブ編集 |
+| 【Codex CLI】(https://github.com/openai/codex) | OpenAIの端末代理店 |
+| 【エイダー】(https://github.com/Aider-AI/aider) | OSS、git-native、LMLLM対応 |
+| 【Gemini CLI】(https://github.com/google-gemini/gemini-cli) | Googleのオープンソース CLI |
 
-## 🧩 IDE plugins (open source)
-| Tool | Note |
+## 🧩 IDEプラグイン(オープンソース)
+| ツール | ノート |
 |---|---|
-| [Continue](https://github.com/continuedev/continue) | OSS copilot, any model incl. local |
-| [Cody](https://github.com/sourcegraph/cody) | Sourcegraph's assistant |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+| [Continue](https://github.com/continuedev/continue) | OSSのコピロー、あらゆるモデル 地域別 |
+| 【コディ】(https://github.com/sourcegraph/cody) | 出典のアシスタント |
+| 【タビー】(https://github.com/TabbyML/tabby) | セルフホストコピロー |
 
-## 🤖 Full-auto dev agents
-| Tool | Note |
+## ✔ 完全自動開発エージェント
+| ツール | ノート |
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
-| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
-| [Bolt](https://bolt.new/) | Prompt → deployed app |
-| [v0](https://v0.dev/) | Vercel's UI generator |
+| 【オープンハンド】(https://github.com/All-Hands-AI/OpenHands) | 自動開発タスク |
+| [Devin](https://devin.ai/) | 認知の自律性SWE |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | 研究グレードの問題修正 |
+| 【ボルト】(https://bolt.new/) | プロンプト → 展開アプリ |
+|【v0】(https://v0.dev/) | VercelのUIジェネレーター |
 
-## 📏 Evals
-- **SWE-bench** — the standard real-repo benchmark
-- **Aider leaderboard** — code-edit quality per model
+## 通常の Evals
+- **SWE-bench** — スタンダード・レポ・ベンチマーク
+-**Aiderのリーダーボード** - モデルごとのコード編集の品質
 
-## 🆚 Head-to-head
+## 🆚 ヘッドツーヘッド
 
-| Tool | Strength | Weakness |
+| 工具 | 強度 | 耐摩耗性 |
 |---|---|---|
-| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
-| Copilot | Ecosystem, enterprise | Slower to adopt new models |
-| Claude Code | Agentic, terminal-native | Burn tokens fast |
-| Aider | Open, git-aware | UX less polished |
-| Windsurf | Agentic flows | Smaller community |
+| カーソル | ベストインラインUX、コードベースコンテクスト | クローズド、価格 |
+| コピロット | エコシステム | 新たなモデルの採用 |
+| クロードコード | エージェント、ターミナルネイティブ | トークンを高速に焼く |
+| エイダー | 開封、git-aware | UX は研磨 |
+| ウィンドサーフィン | エージェントの流れ | より小さなコミュニティ |
 
-## 🧩 Open-source pieces
+##  Open オープンソース作品
 
-| Tool | What |
+| ツール | お問い合わせ
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
-| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
-| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
-| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+| 【オープンハンド】(https://github.com/All-Hands-AI/OpenHands) | OSS エージェント SWE プラットフォーム |
+| 【タビー】(https://github.com/TabbyML/tabby) | セルフホストコピロー |
+| [続きを読む](https://github.com/continuedev/continue) | OSS IDE オートパイロット |
+| 【コディ】(https://sourcegraph.com/cody) | 出典のアシスタント |
+| 【Mentat】(https://github.com/AbanteAI/mentat) | クリップアシスタント |
 
-## 🔮 What's next
+# # # # # #
 
-- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
-- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
-- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+- **Spec-driven dev**:コードではなく、インテントを書く — Kiro/Copilot spec モード リード
+-**Repo-scaleの代理店**:全コードベースレファクタの代理店(SWE-benchの押し70%+)
+- **ローカル コーディング モデル**: Qwen-Coder + DeepSeek-Coderは、フロンティアに近いです
 
 ---
 ## 貢献
