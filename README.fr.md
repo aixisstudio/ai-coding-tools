@@ -4,70 +4,68 @@
 
 Assistants de code IA comparés — copilotes, éditeurs, agents
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
-
-## 🖥️ AI Editors & IDEs
-| Tool | Model | Note |
+Éditeurs et IDE d'IA
+Modèle Remarque
 |---|---|---|
-| [Cursor](https://cursor.com/) | Multi | The current leader — agent mode, codebase-aware |
-| [Windsurf](https://windsurf.com/) | Multi | Cascade agentic flows |
-| [Zed](https://zed.dev/) | Multi | Fast native editor with AI |
-| [VS Code + Copilot](https://code.visualstudio.com/) | GPT | The classic combo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Multi | AI Assistant in IntelliJ & co |
+[Curseur] (https://cursor.com/) Le leader actuel — mode agent, codebase-aware
+[Windsurf] (https://windsurf.com/)
+[Zed](https://zed.dev/) (En anglais seulement) Éditeur natif rapide avec AI
+[Code VS + copilote] (https://code.visualstudio.com/) Le combo classique
+[JetBrains AI](https://www.jetbrains.com/ai/)
 
-## ⌨️ Terminal & CLI agents
-| Tool | Note |
+Agents des terminaux et de l'ICL
+Remarque
 |---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Terminal-native, edits real repos |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent |
-| [Aider](https://github.com/Aider-AI/aider) | OSS, git-native, works with any LLM |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source CLI |
+[Claude Code](https://claude.com/product/claude-code)= Terminal-native, modifie real repos
+[Codex CLI](https://github.com/openai/codex)
+[Aider](https://github.com/Aider-AI/aider)= OSS, git-natif, fonctionne avec n'importe quel LLM=
+[Gemini CLI](https://github.com/google-gemini/gemini-cli)=CLI open-source de Google
 
-## 🧩 IDE plugins (open source)
-| Tool | Note |
+Les plugins IDE (open source)
+Remarque
 |---|---|
-| [Continue](https://github.com/continuedev/continue) | OSS copilot, any model incl. local |
-| [Cody](https://github.com/sourcegraph/cody) | Sourcegraph's assistant |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+[Continuer](https://github.com/continuedev/continue) local
+[Cody] (https://github.com/sourcegraph/cody)
+[Tabby] (https://github.com/TabbyML/tabby)
 
-## 🤖 Full-auto dev agents
-| Tool | Note |
+Nombre d'agents de dév.
+Remarque
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
-| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
-| [Bolt](https://bolt.new/) | Prompt → deployed app |
-| [v0](https://v0.dev/) | Vercel's UI generator |
+Tâches de développement autonomes
+[Devin] (https://devin.ai/)
+[SWE-agent] (https://github.com/SWE-agent/SWE-agent)
+[Bolt](https://bolt.new/)
+[v0](https://v0.dev/)
 
-## 📏 Evals
-- **SWE-bench** — the standard real-repo benchmark
-- **Aider leaderboard** — code-edit quality per model
+Évales
+- **SWE-bench** — l'indice de référence réel standard
+- **Aider leaderboard** — qualité code-edit par modèle
 
-## 🆚 Head-to-head
+La tête en tête
 
-| Tool | Strength | Weakness |
+Utilité de l'outil
 |---|---|---|
-| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
-| Copilot | Ecosystem, enterprise | Slower to adopt new models |
-| Claude Code | Agentic, terminal-native | Burn tokens fast |
-| Aider | Open, git-aware | UX less polished |
-| Windsurf | Agentic flows | Smaller community |
+Curseur UX Best inline, contexte de base de code
+Écosystème, entreprise
+Claude Code de l'agent, terminal-natif
+Ouvrir, git-aware UX moins poli
+Surf à voile Flux d'agents
 
-## 🧩 Open-source pieces
+Pièces libres
 
-| Tool | What |
+Outil Quoi ?
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
-| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
-| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
-| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+[OpenHands](https://github.com/All-Hands-AI/OpenHands)= plate-forme OSS agentique SWE=
+[Tabby] (https://github.com/TabbyML/tabby)
+[Continuer](https://github.com/continuedev/continue)
+[Cody] (https://sourcegraph.com/cody)
+[Mentat] (https://github.com/AbanteAI/mentat)
 
-## 🔮 What's next
+Quelle est la suite
 
-- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
-- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
-- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+- **Dév** piloté par les spécifications: intention d'écrire, non code — tête de mode spec Kiro/Copilot
+- ** Agents à l'échelle de répétition** : agents de refacteur de base de code entier (SWE-bench poussant 70%+)
+- **Modèles de codage locaux**: Qwen-Coder + DeepSeek-Coder se rapprochant de la frontière
 
 ---
 ## Contribuer
