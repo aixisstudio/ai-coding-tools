@@ -4,70 +4,68 @@
 
 Сравнение AI-инструментов для кода
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
-
-## 🖥️ AI Editors & IDEs
-| Tool | Model | Note |
+##  ️ Редакторы и IDE
+| Инструмент | Модель | Примечание
 |---|---|---|
-| [Cursor](https://cursor.com/) | Multi | The current leader — agent mode, codebase-aware |
-| [Windsurf](https://windsurf.com/) | Multi | Cascade agentic flows |
-| [Zed](https://zed.dev/) | Multi | Fast native editor with AI |
-| [VS Code + Copilot](https://code.visualstudio.com/) | GPT | The classic combo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Multi | AI Assistant in IntelliJ & co |
+[Курсор] (https://cursor.com/) | Мульти | Текущий лидер — режим агента, кодовая база-знает
+| [Windsurf](https://windsurf.com/) | Многокаскадные агентные потоки |
+[Zed](https://zed.dev/) | Multi | Fast native editor with AI |
+[VS Code + Copilot] (https://code.visualstudio.com/) Классическая комбо
+[JetBrains AI] (https://www.jetbrains.com/ai/) | Multi | AI Assistant в IntelliJ & co |
 
-## ⌨️ Terminal & CLI agents
-| Tool | Note |
+##  ️ Агенты терминала и CLI
+| Инструмент | Примечание
 |---|---|
-| [Claude Code](https://claude.com/product/claude-code) | Terminal-native, edits real repos |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent |
-| [Aider](https://github.com/Aider-AI/aider) | OSS, git-native, works with any LLM |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source CLI |
+| [Код Клода] (https://claude.com/product/claude-code) | Нативный терминал, редактирует реальные репо |
+[Codex CLI] (https://github.com/openai/codex) | Терминальный агент OpenAI
+[Aider] (https://github.com/Aider-AI/aider) | OSS, git-native, работает с любым LLM |
+[Gemini CLI] (https://github.com/google-gemini/gemini-cli) | CLI с открытым исходным кодом Google
 
-## 🧩 IDE plugins (open source)
-| Tool | Note |
+Плагины IDE (open source)
+| Инструмент | Примечание
 |---|---|
-| [Continue](https://github.com/continuedev/continue) | OSS copilot, any model incl. local |
-| [Cody](https://github.com/sourcegraph/cody) | Sourcegraph's assistant |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
+[Продолжение] (https://github.com/continuedev/continue) | OSS copilot, любая модель в т.ч. местный
+[Cody] (https://github.com/sourcegraph/cody) | Помощник Sourcegraph
+[Tabby] (https://github.com/TabbyML/tabby) | Самостоятельно размещенный копилот
 
-## 🤖 Full-auto dev agents
-| Tool | Note |
+## - Полноценные агенты
+| Инструмент | Примечание
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Autonomous dev tasks |
-| [Devin](https://devin.ai/) | Cognition's autonomous SWE |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Research-grade issue fixing |
-| [Bolt](https://bolt.new/) | Prompt → deployed app |
-| [v0](https://v0.dev/) | Vercel's UI generator |
+[OpenHands] (https://github.com/All-Hands-AI/OpenHands) | Автономные задачи
+[Devin] (https://devin.ai/) | Автономное SWE познания
+[SWE-агент] (https://github.com/SWE-agent/SWE-agent) | Исследовательский класс исправление проблемы
+| [Bolt](https://bolt.new/) | Быстрое развертывание приложения |
+[v0](https://v0.dev/) | Генератор пользовательского интерфейса Vercel
 
-## 📏 Evals
-- **SWE-bench** — the standard real-repo benchmark
-- **Aider leaderboard** — code-edit quality per model
+##   Эвалс
+**SWE-bench** — стандартный бенчмарк в режиме реального времени
+**Aider leaderboard** — качество код-редактирования для каждой модели
 
-## 🆚 Head-to-head
+## - Голова в голову
 
-| Tool | Strength | Weakness |
+Оборудование, сила, слабость.
 |---|---|---|
-| Cursor | Best inline UX, codebase context | Closed, pricey at scale |
-| Copilot | Ecosystem, enterprise | Slower to adopt new models |
-| Claude Code | Agentic, terminal-native | Burn tokens fast |
-| Aider | Open, git-aware | UX less polished |
-| Windsurf | Agentic flows | Smaller community |
+| Курсор | Лучший встроенный UX, контекст кодовой базы | Закрытый, дорогой по масштабу |
+Копилот Экосистема, предприятие Медленнее внедрять новые модели
+Клод Код, агентный, терминальный нативный, сжигать токены быстро
+Открывай, оберегайся! UX менее полированный!
+| Виндсерф | Агентские потоки | Меньшее сообщество
 
-## 🧩 Open-source pieces
+##  pieces Открытые источники
 
-| Tool | What |
+Инструмент Что?
 |---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS agentic SWE platform |
-| [Tabby](https://github.com/TabbyML/tabby) | Self-hosted copilot |
-| [Continue](https://github.com/continuedev/continue) | OSS IDE autopilot |
-| [Cody](https://sourcegraph.com/cody) | Sourcegraph's assistant |
-| [Mentat](https://github.com/AbanteAI/mentat) | CLI assistant |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS-агентная платформа SWE |
+[Tabby] (https://github.com/TabbyML/tabby) | Самостоятельно размещенный копилот
+[Продолжение] (https://github.com/continuedev/continue) | Автопилот OSS IDE
+[Cody] (https://sourcegraph.com/cody) | Помощник Sourcegraph
+[Ментат] (https://github.com/AbanteAI/mentat) | Помощник CLI
 
-## 🔮 What's next
+###Что дальше
 
-- **Spec-driven dev**: writing intent, not code — Kiro/Copilot spec mode lead
-- **Repo-scale agents**: whole-codebase refactor agents (SWE-bench pushing 70%+)
-- **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
+-**Spec-driven dev**: написание намерений, а не кода - Kiro/Copilot
+** Агенты масштаба РЕПО**: агенты рефактора всей базы кода (SWE-bench толкает 70%+)
+**Модели локального кодирования**: Qwen-Coder + DeepSeek-Coder приближается к границе
 
 ---
 ## Участие
