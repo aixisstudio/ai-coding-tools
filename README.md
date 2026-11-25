@@ -68,7 +68,7 @@ AI coding assistants compared — copilots, editors, agents for devs
 - **Local coding models**: Qwen-Coder + DeepSeek-Coder getting close to frontier
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
